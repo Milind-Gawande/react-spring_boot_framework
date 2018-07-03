@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Jul 03 13:24:17 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0164-5f22-8ead-00000160a3c8 
+on database directory memory:C:\Users\sony vaio\Documents\workspace-sts-3.9.4.RELEASE\react-spring_boot\testdb with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
+Loaded from file:/C:/Users/sony%20vaio/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_05-b13
+user.dir=C:\Users\sony vaio\Documents\workspace-sts-3.9.4.RELEASE\react-spring_boot
+os.name=Windows 8
+os.arch=amd64
+os.version=6.2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
