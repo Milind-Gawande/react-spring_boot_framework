@@ -59,6 +59,9 @@ Pre-requisites: JDK should be already installed on your computer. Without it, th
 IMPORTANT NOTES:
 1. Embedded database(Derby) is being used which will be reset or drops the table internally if user kill the application and restart again. 
    Data will be flush out and wont be displayed if the application tomcat is restarted.
+2. I have also developed the same react-application that is integrated with node.js(backend) and connected with external (SQL Server). 
+   INSTALLATION steps for it are mention in its respective document. You can visit on the following link:
+   https://github.com/Milind-Gawande/react-node
 
 
 
