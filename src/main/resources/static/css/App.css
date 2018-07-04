@@ -65,16 +65,29 @@
   height: 60px;
 }
 
+
+#clocksp{
+	position:absolute;
+	top:15%;
+	right:2%;
+	width:10%;
+	height:10%;
+	margin-left:1%;
+	
+}
+
 #country{
 	color:orange;
 }
 
 header {
   background-color: #222;
-  height: 130px;
+  height: 22%;
   color: white;
   padding: 10px;
   width:100%;
+  display:flex;
+  flex-flow:row wrap;
   position:fixed;
   top:0;
 }
@@ -100,15 +113,16 @@ main{
 
 
 #clock{
-	position:absolute;
-	right:30px;
-	top:25px;
+	width:24%;
+	height:100%;
 }
 
 #logo{
 	position:absolute;
-	top:60px;
-	left:50px;
+	top:40%;
+	left:-12%;
+	width:37%;
+	height:38%;
 }
 
 @keyframes backgroundScroll {
@@ -123,25 +137,23 @@ main{
 }
 
 #classroom{
-	position:absolute;
-	top:5px;
-	left:250px;
+	width:24%;
+	height:100%;
 }
 
 #office{
-	position:absolute;
-	top:5px;
-	left:550px;
+	width:24%;
+	height:100%;
+	margin-left:4%;
 }
 
 #office1{
-	position:absolute;
-	top:5px;
-	left:850px;
+	width:24%;
+	height:100%;
 }
 
 .App-title {
-  font-size: 18px;
+  font-size: 120%;
 }
 
 
