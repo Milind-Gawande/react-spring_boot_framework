@@ -1,5 +1,7 @@
 # react-spring_boot_framework
 Normal Application build with react and spring boot.
+Users can see the live project by following the below link:
+http://react-springboot-react-springboot.193b.starter-ca-central-1.openshiftapps.com/
 
 Hi guys,
 
