@@ -378,10 +378,10 @@ var LineBreak = React.createClass({
 			<h1 className="App-title"><strong>Welcome to Spring</strong></h1>
 			<img id="spring" src="../images/spring.png" className="SApp-logo" alt="spring logo" />
 			</div>
-				<img id="sunrise" src="../images/sunrise.jpg" alt="Sunrise logo" />
-				<img id="classroom1" src="../images/classroom1.jpg" alt="Classroom1 logo" />
-				<img id="learning"  src="../images/learning.jpg" alt="Learning logo" />
-				<img id="abacus"  src="../images/abacus.jpg" alt="Abacus logo" />
+				<img id="sunrise" height="180" src="../images/sunrise.jpg" alt="Sunrise logo" />
+				<img id="classroom1" height="180" src="../images/classroom1.jpg" alt="Classroom1 logo" />
+				<img id="learning"  height="180" src="../images/learning.jpg" alt="Learning logo" />
+				<img id="abacus"  height="180" src="../images/abacus.jpg" alt="Abacus logo" />
 			<span className="colorP">
 				<a href="https://www.facebook.com" title="Facebook" target="_blank"><img id="face" src="../images/facebook.svg" alt="facebook" /></a>
 				<a href="https://www.linkedin.com" title="Linkedin" target="_blank"><img id="linkedin" src="../images/linkedin.png" alt="linkedin" /></a>
