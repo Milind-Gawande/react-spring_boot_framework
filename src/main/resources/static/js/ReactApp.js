@@ -351,9 +351,11 @@ var LineBreak = React.createClass({
 			});
 			return(
 			<div>
-			<header>			
+			<header>	
+						<div id="headf">		
 						<h1 className="App-title"><strong>Welcome to React</strong></h1>
 						<img id="logo" src="../images/logo.svg" className="App-logo" alt="logo" />
+						</div>
 							<img id="office" src="../images/office.jpg" alt="Class room logo" />
 							<img id="classroom" src="../images/classroom.jpg" alt="Office logo" />
 							<img id="office1" src="../images/office1.jpg" alt="Office logo" />
@@ -372,21 +374,20 @@ var LineBreak = React.createClass({
 			</main>
 			<br></br>
 			<footer>
-			<div>
+			<div id="footf">
 			<h1 className="App-title"><strong>Welcome to Spring</strong></h1>
 			<img id="spring" src="../images/spring.png" className="SApp-logo" alt="spring logo" />
 			</div>
-			<div id="imgM">
-				<img id="sunrise" width="300px" height="125px" src="../images/sunrise.jpg" alt="Sunrise logo" />
-				<img id="learning" width="300px" height="125px" src="../images/learning.jpg" alt="Learning logo" />
-				<img id="abacus" width="300px" height="125px" src="../images/abacus.jpg" alt="Abacus logo" />
-			</div>
-			<div className="colorP">
+				<img id="sunrise" src="../images/sunrise.jpg" alt="Sunrise logo" />
+				<img id="classroom1" src="../images/classroom1.jpg" alt="Classroom1 logo" />
+				<img id="learning"  src="../images/learning.jpg" alt="Learning logo" />
+				<img id="abacus"  src="../images/abacus.jpg" alt="Abacus logo" />
+			<span className="colorP">
 				<a href="https://www.facebook.com" title="Facebook" target="_blank"><img id="face" src="../images/facebook.svg" alt="facebook" /></a>
 				<a href="https://www.linkedin.com" title="Linkedin" target="_blank"><img id="linkedin" src="../images/linkedin.png" alt="linkedin" /></a>
 				<a href="https://www.twitter.com" title="Twitter" target="_blank"><img id="twitter" src="../images/twitter.svg" alt="linkedin" /></a>
 				<img id="license" src="../images/License.png" alt="license" />
-			</div>
+			</span>
 			</footer>
 			</div>
 			);
