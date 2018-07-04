@@ -8,10 +8,11 @@ var MyClock = React.createClass({
 	   
 	   render(){
 		  return(
-		   <div><strong id="country">India</strong><br></br>
-		   <strong>{this.state.date.toDateString()}</strong><br></br>
-		   <strong>{this.state.date.toLocaleTimeString()}</strong>
-		   </div>
+			<span id="clocksp">
+		   <p><strong id="country">India</strong><br></br>
+		   <strong>{this.state.date.toDateString()}<br></br>
+		   {this.state.date.toLocaleTimeString()}</strong></p>
+			</span>
 		   );
 	   },
 	   
@@ -351,13 +352,12 @@ var LineBreak = React.createClass({
 			return(
 			<div>
 			<header>			
-					<h1 className="App-title"><strong>Welcome to React UI</strong></h1>
-					<img id="logo" src="../images/logo.svg" className="App-logo" alt="logo" />
-					<img id="office" width="300px" height="120px" src="../images/office.jpg" alt="Class room logo" />
-					<img id="classroom" width="300px" height="120px" src="../images/classroom.jpg" alt="Office logo" />
-					<img id="office1" width="300px" height="120px" src="../images/office1.jpg" alt="Office logo" />
-					<div id="clock"><MyClock /></div>
-					
+						<h1 className="App-title"><strong>Welcome to React</strong></h1>
+						<img id="logo" src="../images/logo.svg" className="App-logo" alt="logo" />
+							<img id="office" src="../images/office.jpg" alt="Class room logo" />
+							<img id="classroom" src="../images/classroom.jpg" alt="Office logo" />
+							<img id="office1" src="../images/office1.jpg" alt="Office logo" />
+					<MyClock />
 			</header>
 			<main>
 			<div id="main" className="backImg">
